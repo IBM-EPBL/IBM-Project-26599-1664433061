@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Registration page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+ </head>
+ <form>
+    <body class="bg-secondary">
+        <center><h1 class="bg-primary text-white">Registration Form</h1></center>
+        <form><div class="container">
+            <div class="form-group text-white">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="n1">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="e1">
+            <label for="email">Mobile:</label>
+            <input type="text" class="form-control" id="m1">
+            <label for="city">City:</label> 
+                <select name="city" class="cities form-control" id="cityId">
+                    <option value="">Select city</option>
+              <option value="">Chennai</option>
+              <option value="">Mumbai</option>
+              <option value="">Kolkata</option>
+          </select>
+          <label for="city">State:</label> 
+                <select name="city" class="State form-control" id="stateId">
+                    <option value="">Select State</option>
+              <option value="">Tamilnadu</option>
+              <option value="">Karnataka</option>
+              <option value="">Kerala</option>
+          </select>
+          <label for="city">City:</label> 
+                <select name="city" class="country form-control" id="countryId">
+                    <option value="">Select country</option>
+              <option value="">India</option>
+              <option value="">Pakistan</option>
+              <option value="">China</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="clear" class="btn btn-danger">Clear</button>
+              </div></div>
+        </form>
+    </body>
+</html>
